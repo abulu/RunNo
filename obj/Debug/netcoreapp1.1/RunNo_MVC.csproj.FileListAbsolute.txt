@@ -1,0 +1,8 @@
+F:\MyProject\RunNo_MVC\bin\Debug\netcoreapp1.1\RunNo_MVC.deps.json
+F:\MyProject\RunNo_MVC\bin\Debug\netcoreapp1.1\RunNo_MVC.runtimeconfig.json
+F:\MyProject\RunNo_MVC\bin\Debug\netcoreapp1.1\RunNo_MVC.runtimeconfig.dev.json
+F:\MyProject\RunNo_MVC\bin\Debug\netcoreapp1.1\RunNo_MVC.dll
+F:\MyProject\RunNo_MVC\bin\Debug\netcoreapp1.1\RunNo_MVC.pdb
+F:\MyProject\RunNo_MVC\obj\Debug\netcoreapp1.1\RunNo_MVC.AssemblyInfo.cs
+F:\MyProject\RunNo_MVC\obj\Debug\netcoreapp1.1\RunNo_MVC.dll
+F:\MyProject\RunNo_MVC\obj\Debug\netcoreapp1.1\RunNo_MVC.pdb

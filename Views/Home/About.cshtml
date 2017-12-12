@@ -1,0 +1,21 @@
+﻿@model RunNo_MVC.Models.Product
+
+@{
+    ViewBag.Title = "设置取号数量";
+}
+<div class="container" style="text-align: center;font-size:31px">
+<input type="number" sytle="width:60%; " id="inputNumber" value="@Model.Name">
+
+<br><br>
+<a id="anumsetting"  class="btn btn-lg btn-success btn-shadow" >提交设置并开始游戏</a>
+</div>
+<script>
+$("#anumsetting").click(function(){
+    
+    var newLimitNo = $("#inputNumber").val();
+
+    window.location.href = "/Home/About/"+newLimitNo;
+
+});
+
+</script>

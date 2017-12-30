@@ -50,7 +50,7 @@ namespace RunNo_MVC.Models
         public static void SetLimitNo(string newLimitNo)
         {
             UsedList.ClearAllUsedList();
-            CountIndex =0;
+            CountIndex = 0;
             Int32.TryParse(newLimitNo, out LimitNo);
         }
 
@@ -75,7 +75,11 @@ namespace RunNo_MVC.Models
             //  MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
             //new 
 
+            var timeflag = DateTime.Now.Minute.ToString() + DateTime.Now.Second.ToString() + DateTime.Now.Millisecond.ToString();
+
             MD5 md5 = MD5.Create();
+
+            str += timeflag;
 
             byte[] byteArray = Encoding.ASCII.GetBytes(str);
             byteArray = md5.ComputeHash(byteArray);

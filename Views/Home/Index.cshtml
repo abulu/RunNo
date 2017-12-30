@@ -8,5 +8,16 @@
 
 <br>
 
-<a asp-action="Index" class="btn btn-lg btn-success btn-shadow" asp-controller="Home">获取号码</a>
+<a  id="getnumber" class="btn btn-lg btn-success btn-shadow" >获取号码</a>
+<br>
+<span style="font-size:7px;color:#ffffff;" id="spankey">@Model.GUID</span>
 </div>
+<script>
+$("#getnumber").click(function(){
+    
+    var key = $("#spankey").text();
+    window.location.href = "/Home/Index/"+key;
+
+});
+
+</script>

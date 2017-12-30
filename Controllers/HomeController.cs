@@ -10,7 +10,7 @@ namespace RunNo_MVC.Controllers
     public class HomeController : Controller
     {
         //int id
-        public IActionResult Index()
+        public IActionResult Index(string Id)
         {
             // ViewData["Number"] =    
 
@@ -18,10 +18,10 @@ namespace RunNo_MVC.Controllers
 
             // User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
             //var ip = Request.Headers["X-Forwarded-For"].FirstOrDefault();
-            string ip = Request.Headers["User-Agent"].FirstOrDefault();
 
-            string iKey = NumberObject.GenerateMD5(ip);
-         
+            string ip = Request.Headers["User-Agent"].FirstOrDefault();
+            string iKey = Id != null && Id.Length > 0 ? Id : NumberObject.GenerateMD5(ip);
+
             Product myProduct = new Product
             {
                 GUID = iKey,
@@ -37,13 +37,13 @@ namespace RunNo_MVC.Controllers
         public IActionResult About(int Id)
         {
             NumberObject.SetLimitNo(Id.ToString());
-          
-             Product myProduct = new Product
+
+            Product myProduct = new Product
             {
                 GUID = "SettingNo",
-                Name =Id.ToString()
+                Name = Id.ToString()
             };
-       
+
             return View(myProduct);
         }
 

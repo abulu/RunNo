@@ -1,0 +1,37 @@
+Yes, ok. 
+Good afternoon. It’s really a great time to have this opportunity to introduce myself. 
+My Name is Lu Bu, I am 32 years old and I born in ChongQing City.  I was graduated from ChengDu University in 2008. My major is computer information and science. During university, I start to study Microsoft framework and develop skills. Like: c#, .Net, SQL Database and so on..
+Until now, I have ten years’ work experience in development, maintain and support area. As a software engineer, I think I have a very big change and study a lot of things. 
+First, I study how to develop enterprise system, 
+how to communication with customer, 
+how to co-work with test, BA, project manger, 
+and also how to think from business side. 
+Based on my professional skill and experience. I can quick trouble shooting and solved problems.  I can provide my best support to my customer.
+Besides works, I also attended some sport match. Like Marathon, bicycle, basketball.  I love those sport. Because I can study a lot of thing from it. Like teamwork, make happy and funning together. Met different people and the different place.  Especially, the marathon, I am not the faster bu I can insist and keep running until the end. Don’t give up. 
+I think I am a good team player and as an engineer,  
+I can refresh my mindset and study the new skill, accept the new ides. 
+Keep my step follow with the times.  
+That’s all, thanks very much. 
+
+
+Hi Jeffrey ,
+ 
+Thank you for taking the time to send me your problems, I feel very sorry for this problem that had not been solved well before. As Jerry (the former colleague who supported this problem) is on sick leave during this time, I’m glad I can assist you to solve the problem together.
+To ensure the consistency of the problem you had encountered, I would like to ask you 3 questions as below,
+        
+1.      What’s the environment/system used?
+2.      What’s the error message/exception code?
+3.      Have you check the Azure Management System's alert/notification? Is there any new information?
+ The above questions would be very helpful to me if you could provide me with the answers and I greatly appreciate that.
+ 
+Based on the previous email content and my professional experience, I recommend the following steps to set up your application/system:
+ 
+a)      Please clear your application/system cache.
+b)      Please use the Edge browser (safe mode) to operate.
+c)      Please check the component version and use the newest version.
+ 
+As always, please do not hesitate to reach out to us if you need any help by emailing us at support@microsoft.com or calling us directly at XXX-XXXX
+ 
+Thanks & Best Regards,
+The Support Team.
+
